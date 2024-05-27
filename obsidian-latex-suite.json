@@ -1,7 +1,7 @@
 [
-  {trigger: "ddx", replacement: "\\frac{\\mathrm{d}}{\\mathrm{d}x} ", options: "mA"},
-  {trigger: "([a-zA-Z])bs", replacement: "\\boldsymbol{[[0]]}", options: "rmA"},
-  {trigger: "bs", replacement: "\\boldsymbol{$0}$1", options: "mA"},
+	{trigger: "ddx", replacement: "\\frac{\\mathrm{d}}{\\mathrm{d}x} ", options: "mA"},
+	{trigger: "([a-zA-Z])bs", replacement: "\\boldsymbol{[[0]]}", options: "rmA"},
+	{trigger: "bs", replacement: "\\boldsymbol{$0}$1", options: "mA"},
 
   
 	// Math mode
