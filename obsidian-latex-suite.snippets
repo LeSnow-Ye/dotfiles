@@ -2,6 +2,7 @@
 	{trigger: "ddx", replacement: "\\frac{\\mathrm{d}}{\\mathrm{d}x} ", options: "mA"},
 	{trigger: "([a-zA-Z])bs", replacement: "\\boldsymbol{[[0]]}", options: "rmA"},
 	{trigger: "bs", replacement: "\\boldsymbol{$0}$1", options: "mA"},
+	{trigger: "paat([A-Za-z])([A-Za-z])([A-Za-z])", replacement: "\\left(\\frac{ \\partial [[0]] }{ \\partial [[1]] }\\right)_{[[2]]} ", options: "rm"},
     
 	// Math mode
 	{trigger: "mk", replacement: "$$0$", options: "tA"},
